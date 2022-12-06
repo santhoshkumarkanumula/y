@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+margin: 0;
+}
+
+.webpage{
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin: 10 20px;
+    width: 100%;
+    height: 50px;
+    background-color: cadetblue;
+}
+.navbar ul li{
+    list-style: none;
+display: inline-block;
+margin: 0 20px;
+padding: 15px;
+}
+.navbar ul li:hover{
+background: rgb(74, 150, 72);
+}
+
+ul li a{
+    text-decoration: none;
+    justify-content: space-between;
+    color: aliceblue;
+}
+h2{
+    padding: 15px;
+    margin: 0 20px;
+}
+.searchbar{
+    padding-top: 15px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+}
+input{
+    padding: 5px;
+}
+button{
+    padding: 5px;
+    width: 100px;   
+}
+.thumb{
+    padding: 10px;
+    display: inline-block;
+}
+.moviethumbnails{
+   
+    width: 100%;
+    
+}
